@@ -6,7 +6,7 @@ export const siteConfig = {
   description:
     "A text-first Astro theme for essays, notes, and long-form writing, with a command-palette search and a light/dark reading mode.",
   siteUrl: "https://Heather-RSCTF.com",
-  authorName: "Andrei Alba",
+  authorName: "Heather Secombe",
   email: "hello@example.com",
   language: "en",
   dateLocale: "en-US",
