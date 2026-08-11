@@ -2,7 +2,7 @@ export const siteConfig = {
   /** Wordmark shown in the header and footer. Monograph uses text, never a logo image. */
   name: "Heather-RS a Cybersecurity blog",
   tagline: "CTF write ups, OSINT, threat hunting and more",
-  title: "Heather-RS Cybersecurity blog",
+  title: "Heather-RS, Cybersecurity blog",
   description:
     "This blog is a progress space for learning and gathering information about Cyber-Security Threat Intelligence and OSINT.",
   siteUrl: "https://Heather-RSCTF.com",
