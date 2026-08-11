@@ -8,12 +8,12 @@
  * sidebar.
  */
 export const categories = [
-  "Engineering",
-  "Reliability",
-  "Cloud",
+  "CTF write ups",
+  "OSINT",
+  "Threat intel",
   "Security",
-  "AI",
-  "Design Systems",
+  "Further learning and breakdowns",
+  "News and interests",
 ] as const;
 
 export type Category = (typeof categories)[number];
