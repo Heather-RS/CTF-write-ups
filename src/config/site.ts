@@ -1,20 +1,20 @@
 export const siteConfig = {
   /** Wordmark shown in the header and footer. Monograph uses text, never a logo image. */
-  name: "Monograph",
-  tagline: "A quiet place for long-form writing",
-  title: "Monograph - A minimal Astro blog theme",
+  name: "Heather-RS a Cybersecurity blog",
+  tagline: "CTF write ups, OSINT, threat hunting and more",
+  title: "Heather-RS Cybersecurity blog",
   description:
-    "A text-first Astro theme for essays, notes, and long-form writing, with a command-palette search and a light/dark reading mode.",
+    "This blog is a progress space for learning and gathering information about Cyber-Security Threat Intelligence and OSINT.",
   siteUrl: "https://Heather-RSCTF.com",
   authorName: "Heather Secombe",
-  email: "hello@example.com",
+  email: "Heatherr.secombe@gmail.com",
   language: "en",
   dateLocale: "en-US",
   locale: "en_US",
   socialImage: "/og-image.png",
   /** Shown in the home sidebar "About" card. */
   about:
-    "Monograph is a reading-first Astro theme. Notes on building software, published when there is something worth saying.",
+    "This blog is a progress space for learning and gathering information about Cyber-Security Threat Intelligence and OSINT.",
   /**
    * Both forms below ship enabled with an empty `action`, which makes them fully
    * interactive demos that submit nowhere: a small script confirms the submit
