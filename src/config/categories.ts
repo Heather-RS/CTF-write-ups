@@ -12,7 +12,7 @@ export const categories = [
   "OSINT",
   "Threat intel",
   "Security",
-  "Further learning and breakdowns",
+  "Lab learning and breakdowns",
   "News and interests",
 ] as const;
 
