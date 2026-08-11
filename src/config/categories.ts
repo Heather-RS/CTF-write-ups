@@ -29,7 +29,7 @@ export const categorySlug = (category: string) =>
 /** One line per category, shown on its archive page and in listings. */
 export const categoryDescriptions: Record<Category, string> = {
   "CTF write ups": "For general CTF's, not just to learn but to keep track of mistakes and improvements",
-  OSINT: "About the OSINT community, techniques and recent developments",
+  "OSINT": "About the OSINT community, techniques and recent developments",
   "Threat intel": "About all the most recent threat intelligence in a news format with breakdowns",
   "Cyber Security": "General learning and ideas",
   "Lab learning and breakdowns": "For more hands on learning and exercises with breakdowns",
