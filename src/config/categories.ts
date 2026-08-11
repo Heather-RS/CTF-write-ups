@@ -11,9 +11,9 @@ export const categories = [
   "CTF write ups",
   "OSINT",
   "Threat intel",
-  "Security",
+  "Cyber Security",
   "Lab learning and breakdowns",
-  "News and interests",
+  "News & interests",
 ] as const;
 
 export type Category = (typeof categories)[number];
