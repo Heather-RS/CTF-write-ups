@@ -34,6 +34,7 @@ Another technique that the lead team had used that we didn’t was using less co
 One interesting thing that I believe we did miss was the maiden name of the one of the missing people, the lead team had found this but we had not, so it shows that we may not have been going into the profiles as deeply as we could, another consequence of breaking up the work load of missing people to individuals rather than working together.
 
 My final conclusions echo what Amy E. of oSInt & Giggles, so I’ll let her words ring true.
+
 I have emphasized throughout my years of teaching OSINT: tools matter, but methodology matters more. We did not use paid tools. Our results came from Boolean searches, Google dorking, knowing how to pivot from the information we had, determining what was relevant, validating connections, and deciding where to spend our limited time. Just as important was recognizing when to dig deeper and when to cut our losses before a rabbit hole consumed too much time.
 - Amy, E.
 
