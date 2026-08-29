@@ -1,4 +1,3 @@
-
 ---
 title: "Comparative analysis – finding out where we went wrong and what we got right"
 excerpt: "A blog space for CTF write ups"
