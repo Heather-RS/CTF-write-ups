@@ -1,5 +1,5 @@
 ---
-title: "Comparative analysis – finding out where we went wrong and what we go right"
+title: "Comparative analysis – finding out where we went wrong and what we got right"
 excerpt: "A blog space for CTF write ups"
 category: "CTF write ups"
 date: 2026-07-16
@@ -14,7 +14,7 @@ cover:
 featured: true
 ---
 
-# Comparative analysis – finding out where we went wrong and what we go right
+# Comparative analysis – finding out where we went wrong and what we got right
 
 # Preamble -
 My team attended defcom 34 as librenovus and places 72nd in the ctf we were all news to OSINT and were a team that had never met each other until this event occurred.
