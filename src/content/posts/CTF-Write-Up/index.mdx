@@ -1,0 +1,102 @@
+---
+title: "CTF write ups"
+excerpt: "A blog space for CTF write ups"
+category: "CTF write ups"
+date: 2026-07-16
+author:
+  name: "Heather"
+  role: "Junior Cyber Security Engineer"
+cover:
+  src: "./Adobe Express - file.jpg"
+  alt: "HughesFamily"
+  creditName: "Credits UK Osint"
+  creditUrl: "https://www.osint.uk/" 
+featured: true
+---
+
+# The Disappearance of Owain Hughes
+
+This is a beginner's CTF designed to test your ability to gather intelligence from multiple sources and identify evidence.
+
+## The Brief
+
+The Hughes family is deeply concerned. Their 19-year-old son, Owain, has abruptly left their home in Llandudno. While he had been mentioning a girlfriend in South Wales, his sudden silence and isolation have left his parents worried about his wellbeing.
+
+As a private investigator, your first task is to review the initial evidence. We need to confirm the core facts from the family's briefing and the recovered photos before we begin tracking his journey south.
+
+<Callout type="Question One">
+
+Review the attached PDF and images to confirm the missing individual's full name, year of birth, and the city where he usually lives.
+
+Easy enough, just search the PDF for answers.
+
+CASE FILE: THE DISAPPEARANCE OF OWAIN HUGHES
+
+Client: The Hughes family, North Wales  
+Missing person: Owain Hughes, 19 (DOB: 19/05/2006)  
+Last known location: Llandudno, North Wales  
+Suspected destination: South Wales
+
+`osintuk{Owain_Hughes_2006_Llandudno}`
+
+</Callout>
+
+<Callout type="Question Two">
+
+A bittersweet memory.
+
+The photo features a pier with a simple handwritten note: 07/12/2024, "our favourite spot, why did Kelly have to go? :("
+
+First thought: who is Kelly? Unfortunately, there is nothing to suggest Kelly is known to Owain, and the family is equally confused.
+
+So what else could it be? First, we need to look at the image. We see a tourist attraction called a talking telescope. A quick reverse image search finds the exact type of telescope, with the same fence style.
+
+The location is Llandudno Pier, which matches his last known location. So what about Kelly?
+
+Now we type into the search bar: Llandudno Pier Kelly.
+
+Kelly's Ice Cream kiosks operate at several seaside locations. The important clue here is that the Kelly's Ice Cream kiosk on Llandudno Pier was destroyed and washed away during Storm Darragh on 7 December 2024.
+
+That matches the date on the photo.
+
+**Second flag found.**
+
+</Callout>
+
+<Callout type="Question Three">
+
+The drone footage.
+
+We now have an idea of Owain's movements and know he is definitely moving through Wales, but where is he headed next?
+
+A family member sent in a piece of drone footage of a rural, sandy beach head. The landmarks are fairly distinctive: a pristine white house contrasting against a dark rocky beach head and green grass.
+
+This one was a little harder. Extracting metadata yielded nothing, so it was time to search Google. A reverse image search didn't yield much either, so we had to be more creative.
+
+Combinations of "Wales beach head white houses," "Wales tourist beach head white houses," and "southern Wales tourist spots: beaches" eventually led us to Ogmore-by-Sea.
+
+A Google Maps search showed that the house positions and road layout matched one-to-one, confirming the location.
+
+</Callout>
+
+<Callout type="Question Four">
+
+Static on the line.
+
+This was by far the hardest and most technical challenge.
+
+There were several problems for me here. First, I have a hearing disorder that allows me to hear fine but makes it hard to interpret meaning from what I hear. Second, the audio was in a language I do not understand, and one of the hardest to translate from phonetic sound to spoken word: Welsh.
+
+The first thing I had to do was manipulate the audio to separate the background noise from the foreground. I tried Audacity, but eventually had to use an online AI audio splitter instead.
+
+I listened to the background track continuously and still couldn't quite make it out, so I searched online for the Welsh names of train stations and worked out which lines ran close to Ogmore.
+
+My hearing problem kept getting in the way. Feeling stuck, I tried to think of how I could confirm whether I was hearing and understanding the pronunciation correctly. That led me to wonder: if sounds produce wavelengths, and those wavelengths correlate to shapes, could there be a way to match wavelength shapes to sounds? It turns out there is.
+
+By overlapping the sound shapes with the waveform in the recording, I discovered I was hearing a C sound as an L sound.
+
+With a renewed direction, and a little push from a friend who had already completed the challenge, I was able to identify the station: Cardiff Central, known in Welsh as Caerdydd Canolog.
+
+**Fourth flag found.**
+
+</Callout>
