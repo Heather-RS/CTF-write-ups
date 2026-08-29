@@ -7,10 +7,10 @@ author:
   name: "Heather"
   role: "Junior Cyber Security Engineer"
 cover:
-  src: "./Adobe Express - file.jpg"
-  alt: "HughesFamily"
-  creditName: "Credits UK Osint"
-  creditUrl: "https://www.osint.uk/" 
+  src: "./images (41).jpg"
+  alt: "Defcom 34"
+  creditName: "Credits Defcom"
+  creditUrl: "https://www.hackerphotos.com/index.php?/category/1" 
 featured: true
 ---
 
