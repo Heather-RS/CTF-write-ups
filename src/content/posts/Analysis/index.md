@@ -37,16 +37,14 @@ Another technique the lead team used that we didn't was using less-common family
 One thing I believe we missed entirely was the maiden name of one of the missing people — the lead team found this, but we hadn't. It shows we may not have been going as deep into the profiles as we could have, another consequence of splitting the workload of missing people across individuals rather than working together.
 
 My final conclusions echo what Amy E. of oSInt & Giggles wrote, so I'll let her words ring true.
-
-<div style="background:#f3f0ff;border-left:4px solid #7c5cff;border-radius:8px;padding:20px 24px;margin:32px 0;">
-<div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:#7c5cff;margin-bottom:10px;">Amy, E.</div>
-
-I have emphasized throughout my years of teaching OSINT: tools matter, but methodology matters more. We did not use paid tools. Our results came from Boolean searches, Google dorking, knowing how to pivot from the information we had, determining what was relevant, validating connections, and deciding where to spend our limited time. Just as important was recognizing when to dig deeper and when to cut our losses before a rabbit hole consumed too much time.
-
-— Amy, E.
-
+ 
+<div style="background:#0d0d0d;border-left:4px solid #9d7cff;border-radius:8px;padding:20px 24px;margin:32px 0;color:#f2f2f2;">
+<div style="font-size:0.75rem;font-weight:700;text-transform:uppercase;letter-spacing:0.05em;color:#b89cff;margin-bottom:10px;">Amy, E.</div>
+<p style="color:#f2f2f2;margin:0 0 12px;">I have emphasized throughout my years of teaching OSINT: tools matter, but methodology matters more. We did not use paid tools. Our results came from Boolean searches, Google dorking, knowing how to pivot from the information we had, determining what was relevant, validating connections, and deciding where to spend our limited time. Just as important was recognizing when to dig deeper and when to cut our losses before a rabbit hole consumed too much time.</p>
+<p style="color:#f2f2f2;margin:0;font-weight:600;">— Amy, E.</p>
 </div>
-
 Source: [Reflections from Def Con — oSInt & Giggles, Amy E.](https://www.linkedin.com/pulse/reflections-from-def-con-osint-ctf-giggles-amy-e-ugsfe/)
-
+ 
 This one paragraph alone sums up everything I could have wanted to say in so many paragraphs of my own. It is profoundly useful advice, and I believe many others could benefit from reading her work.
+ 
+
