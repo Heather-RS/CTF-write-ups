@@ -36,9 +36,12 @@ One interesting thing that I believe we did miss was the maiden name of the one 
 My final conclusions echo what Amy E. of oSInt & Giggles, so I’ll let her words ring true.
 
 <Callout type="Amy, E.">
+  
 I have emphasized throughout my years of teaching OSINT: tools matter, but methodology matters more. We did not use paid tools. Our results came from Boolean searches, Google dorking, knowing how to pivot from the information we had, determining what was relevant, validating connections, and deciding where to spend our limited time. Just as important was recognizing when to dig deeper and when to cut our losses before a rabbit hole consumed too much time.
 - Amy, E.
+
 </Callout>
+
 Source: https://www.linkedin.com/pulse/reflections-from-def-con-osint-ctf-giggles-amy-e-ugsfe/
 
 This one paragraph alone sums up everything I could have wanted to say in so many paragraphs of my own. It is profoundly useful advice and I believe many other could benefit from reading her work and seeing her writings.
