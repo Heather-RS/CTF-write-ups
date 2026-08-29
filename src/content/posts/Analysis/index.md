@@ -7,7 +7,7 @@ author:
   name: "Heather"
   role: "Junior Cyber Security Engineer"
 cover:
-  src: "./images (41)(1).jpg"
+  src: "./images (41) (1).jpg"
   alt: "Defcom 34"
   creditName: "Credits Defcom"
   creditUrl: "https://www.hackerphotos.com/index.php?/category/1"
